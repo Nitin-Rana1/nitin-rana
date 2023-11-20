@@ -2,15 +2,15 @@ import { Typography } from "@mui/material";
 export default function AboutMe() {
   return (
     <main className="p-5 ">
-      <Typography variant="h4" component="h2" className="p-5 font-bold">
+      <Typography variant="h4" component="h2" className="p-5 font-bold mt-10">
         About Me
       </Typography>
       <section className="flex justify-between  xl:mr-52 xl:mt-10 xl:ml-52">
         <div className="h-[60vh] w-4 grid justify-between bg-slate-950 relative ">
-          <div className="h-10 w-10 rounded-full relative  -left-3 bg-purple-700"></div>
-          <div className="h-10 w-10 rounded-full relative  -left-3 bg-purple-700"></div>
-          <div className="h-10 w-10 rounded-full relative  -left-3 bg-purple-700"></div>
-          <div className="h-10 w-10 rounded-full relative  -left-3 bg-purple-700"></div>
+          <div className="h-8 w-8 rounded-full relative  -left-2 bg-purple-700"></div>
+          <div className="h-8 w-8 rounded-full relative  -left-2 bg-purple-700"></div>
+          <div className="h-8 w-8 rounded-full relative  -left-2 bg-purple-700"></div>
+          <div className="h-8 w-8 rounded-full relative  -left-2 bg-purple-700"></div>
         </div>
         <div className="grid ml-10">
           <div>

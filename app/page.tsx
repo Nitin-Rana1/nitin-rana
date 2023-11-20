@@ -76,7 +76,9 @@ export default function Home() {
     //make main a grid and align the children to the middle
     <main className="bg-slate-900">
       <LandingPage />
+      <hr />
       <Projects projects={projectsList} />
+      <hr />
       <AboutMe />
     </main>
   );

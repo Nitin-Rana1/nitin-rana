@@ -49,7 +49,7 @@ export default function Projects({ projects }: { projects: Project[] }) {
   return (
     // <main className="w-screen h-screen overflow-scroll">
     <main>
-      <Typography variant="h4" component="h2" className="p-5 font-bold">
+      <Typography variant="h4" component="h2" className="p-5 font-bold mt-10">
         Projects
       </Typography>
       {projects.map((project, index) => (
