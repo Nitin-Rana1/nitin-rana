@@ -1,0 +1,75 @@
+import FancyIntro from "@/components/FancyIntro";
+import Image from "next/image";
+import React from "react";
+import Typewriter from "typewriter-effect";
+
+export default function Home() {
+  return (
+    // how to center a div inside a div in tailwindcss
+
+    //make main a grid and align the children to the middle
+    <main className="w-screen h-screen grid place-items-center">
+      <div
+        className="preview__header"
+        data-view="ctaHeader"
+        data-item-id="43411972"
+      >
+        <div className="preview__envato-logo">
+          <a
+            className="header-envato_market"
+            href="https://themeforest.net/item/edgefolio-nextjs-react-blog-portfolio-tailwindcss-template/43411972?clickid=0FKw0ByQnxyPWJszXtzMFUahUkFT7qS7CXtU0Y0"
+          >
+            Envato Market
+          </a>
+        </div>
+
+        <div id="js-preview__actions" className="preview__actions">
+          <div className="preview__action--buy">
+            <a
+              className="header-buy-now e-btn--3d -color-primary"
+              href="https://themeforest.net/checkout/from_item/43411972?license=regular&amp;support=bundle_6month"
+            >
+              Buy now
+            </a>
+          </div>
+        </div>
+      </div>
+      <iframe
+        className="full-screen-preview__frame"
+        src="https://edgefolio.vercel.app/"
+        name="preview-frame"
+        // frameborder="0"
+        // noresize="noresize"
+        data-view="fullScreenPreview"
+        allow="geolocation 'self'; autoplay 'self'"
+        style={{ height: "696px" }}
+      ></iframe>
+
+      <div id="volume-booster-visusalizer">
+        <div className="sound">
+          <div className="sound-icon"></div>
+          <div className="sound-wave sound-wave_one"></div>
+          <div className="sound-wave sound-wave_two"></div>
+          <div className="sound-wave sound-wave_three"></div>
+        </div>
+        <div className="segments-box">
+          <div data-range="1-20" className="segment">
+            <span></span>
+          </div>
+          <div data-range="21-40" className="segment">
+            <span></span>
+          </div>
+          <div data-range="41-60" className="segment">
+            <span></span>
+          </div>
+          <div data-range="61-80" className="segment">
+            <span></span>
+          </div>
+          <div data-range="81-100" className="segment">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
