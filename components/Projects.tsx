@@ -2,8 +2,8 @@ import { Button, Typography } from "@mui/material";
 import Image from "next/image";
 const ProjectCard = ({ project }: { project: Project }) => {
   return (
-    <article className=" m-5 mb-20 p-5 bg-slate-700 rounded-lg">
-      <div className="flex justify-center">
+    <article className=" m-5 mb-20 p-5 bg-slate-700 rounded-lg xl:flex">
+      <div className="flex justify-center xl:w-[25vw]">
         <div className="pl-6 relative w-1/3 mb-5 aspect-square">
           <Image
             alt={project.title}
@@ -16,13 +16,17 @@ const ProjectCard = ({ project }: { project: Project }) => {
           />
         </div>
       </div>
-      <section>
+      <section className="">
         <Typography variant="h5" component="h2">
           {project.title}
         </Typography>
-        <Typography variant="body1" component="p">
-          {project.description}
-        </Typography>
+        {project.description.map((desc, index) => {
+          return (
+            <Typography variant="body1" component="p" key={index}>
+              {desc}
+            </Typography>
+          );
+        })}
         {project.link.map((link, index) => {
           return (
             <Button

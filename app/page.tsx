@@ -7,12 +7,14 @@ import React from "react";
 
 export default function Home() {
   // types.ts
-
   const projectsList: Project[] = [
     {
       title: "TimeTable Maker",
-      description:
-        "Developed an android app for generating timetables in educational institutions. Utilized Jetpack Compose and Kotlin for a user-friendly experience. Achieved 10k+ downloads on the Google Play Store.",
+      description: [
+        "Developed an Android app for generating timetables in educational institutions.",
+        "Utilized Jetpack Compose and Kotlin for a user-friendly experience.",
+        "Achieved 10k+ downloads on the Google Play Store.",
+      ],
       img: "/imgs/projects/tt.png",
       link: [
         {
@@ -23,8 +25,10 @@ export default function Home() {
     },
     {
       title: "Disk MG (Utility Software)",
-      description:
-        "C++ Utility Software for disk management in Windows. Integrated features into Context Menu for efficient disk organization.",
+      description: [
+        "Developed a C++ Utility Software for disk management in Windows.",
+        "Integrated features into Context Menu for efficient disk organization.",
+      ],
       img: "/imgs/projects/diskmg.png",
       link: [
         {
@@ -35,8 +39,10 @@ export default function Home() {
     },
     {
       title: "Meet Up Coral",
-      description:
-        "Real-time web video calling platform for connecting friends and strangers. Built using Next.js, Firebase, and Material-UI.",
+      description: [
+        "Real-time web video calling platform for connecting friends and strangers.",
+        "Built using Next.js, Firebase, and Material-UI.",
+      ],
       img: "/imgs/projects/meetup.png",
       link: [
         {
@@ -51,8 +57,10 @@ export default function Home() {
     },
     {
       title: "3D Tic Tac Toe",
-      description:
-        "Developed an engaging 3D Tic Tac Toe game with AI and friend play options. Implemented in Unity 3D.",
+      description: [
+        "Developed an engaging 3D Tic Tac Toe game with AI and friend play options.",
+        "Implemented in Unity 3D.",
+      ],
       img: "/imgs/projects/ttt.png",
       link: [
         {

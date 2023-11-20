@@ -1,6 +1,6 @@
 interface Project {
   title: string;
-  description: string;
+  description: string[];
   img: string;
   link: {
     href: string;
