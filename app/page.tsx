@@ -2,6 +2,7 @@ import AboutMe from "@/components/AboutMe";
 import FancyIntro from "@/components/FancyIntro";
 import LandingPage from "@/components/LandingPage";
 import Projects from "@/components/Projects";
+import { Head } from "next/document";
 import Image from "next/image";
 import React from "react";
 
@@ -72,8 +73,6 @@ export default function Home() {
   ];
 
   return (
-    // how to center a div inside a div in tailwindcss
-    //make main a grid and align the children to the middle
     <main className="bg-slate-900">
       <LandingPage />
       <hr />

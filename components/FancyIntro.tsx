@@ -3,6 +3,8 @@ import { Card, CardContent, Typography } from "@mui/material";
 import React from "react";
 import Typewriter from "typewriter-effect";
 import { AppShortcut, AccountTree } from "@mui/icons-material";
+import { Button } from "@mui/material";
+import Link from "next/link";
 export default function FancyIntro() {
   return (
     <main className="w-full ">
@@ -34,12 +36,14 @@ export default function FancyIntro() {
         Web Developer
       </Typography>
       <Typography className="pb-5 pt-5 pr-10 text-gray-500 text-base">
-        I&apos;m a web developer and tech enthusiast, passionate about creating
-        innovative digital solutions. I enjoy turning ideas into user-friendly
-        websites, constantly exploring new technologies, and believe in
-        tech&apos;s power to make a positive impact.
+        I&apos;m a web developer and occasionally android & game dev. I love
+        creating stuff and solving problems. I am open to new opportunities.
       </Typography>
-
+      <Link href="/resume">
+        <Button variant="contained" className="mb-5 bg-[#f76159] font-bold">
+          Resume
+        </Button>
+      </Link>
       <Card
         className="bg-slate-700 p-5 text-gray-50 block md:bg-gradient-omega-900 md:shadow-2xl border-t-2 "
         style={{
