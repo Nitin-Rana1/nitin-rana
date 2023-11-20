@@ -6,9 +6,6 @@ export default function Resume() {
 
   return (
     <div>
-      <Head>
-        <title>Resume</title>
-      </Head>
       <div style={{ height: "100vh", width: "100vw", position: "relative" }}>
         <iframe
           src={`${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`}

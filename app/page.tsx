@@ -2,7 +2,6 @@ import AboutMe from "@/components/AboutMe";
 import FancyIntro from "@/components/FancyIntro";
 import LandingPage from "@/components/LandingPage";
 import Projects from "@/components/Projects";
-import { Head } from "next/document";
 import Image from "next/image";
 import React from "react";
 
